@@ -1,0 +1,30 @@
+{
+  "name": "oceanic-dark",
+  "displayName": "Oceanic Dark",
+  "description": "A sleek light blue Sublime inspired theme with vibrant colors — perfect for a clean, modern coding experience.",
+  "version": "1.0.0",
+  "publisher": "Abhishek Kumar",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oceanic Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oceanic-dark-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "oceanic-dark-icons",
+        "label": "Oceanic Dark Icons",
+        "path": "./icons/oceanic-dark-icons.json"
+      }
+    ]
+  }
+}
